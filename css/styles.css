@@ -146,17 +146,6 @@ p {
     padding: 3% 2%;
 }
 
-@media (max-width: 1224px) {
-    #title {
-        text-align: center;
-    }
-    .title-image {
-        position: static;
-        transform: rotate(0);
-        width: 50%;
-    }
-}
-
 
 /* CTA Secction */
 
@@ -164,13 +153,14 @@ p {
     background-color: #ff4c68;
     text-align: center;
     padding-bottom: 3%;
+    color: #FFF;
 }
 
-#cta h3 {
-    color: #FFF;
+.cta-heading {
     font-family: Montserrat;
     font-weight: Black;
     font-size: 3rem;
+    line-height: 1.5;
     padding: 7% 15% 0;
 }
 
@@ -180,9 +170,20 @@ p {
 #footer {
     background-color: #FFF;
     text-align: center;
-    padding: 4% 0;
+    padding: 7% 15%;
 }
 
 .footer-icon {
     padding: 2% 1%;
+}
+
+@media (max-width: 1224px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 50%;
+    }
 }

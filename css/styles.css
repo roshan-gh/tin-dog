@@ -172,7 +172,7 @@ p {
 }
 
 @media (max-width: 1224px) {
-    #title {
+    #title .container-fluid {
         text-align: center;
     }
     .title-image {
